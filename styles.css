@@ -6,6 +6,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    
+}
+
 nav {
     height: 80px;
     display: flex;
@@ -125,6 +131,7 @@ button:active {
 
 .header_img--wrapper {
 padding: 20px;
+z-index: 2;
 }
 
 .container {
@@ -144,6 +151,35 @@ HIGHLIGHTS
 
 */
 
+#highlights {
+    position: relative;
+    max-width: 100vw;
+}
+
+#highlights:after,
+#highlights:before {
+    background: url('assets/wave.svg');
+    content: "";
+    position: absolute;
+    width: 101vw;
+    height: 12vw;
+    left: 0;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#highlights:before {
+    transform:translateY(-100%);
+    top: 1px;
+}
+
+#highlights:after {
+    transform:translateY(100%) rotate(180deg);
+    bottom: 1px;
+    
+}
+
 .highlight_wrapper {
     display: flex;
 }
@@ -159,6 +195,7 @@ flex-direction: column;
 
 .highlight_para {
     text-align: center;
+    max-width: 280px;
 }
 
 .highlight_img {
@@ -177,4 +214,16 @@ flex-direction: column;
 .highlight_subtitle {
   font-size: 20px;  
   margin-bottom: 16px;
+}
+
+
+/*
+
+FEATURE
+
+*/
+
+#features { 
+    height: 1000px;
+    background-color: rgba(115, 66, 214 , 0.1);
 }
