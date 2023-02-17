@@ -237,3 +237,17 @@ width:100%;
 padding: 24px;
 }
 
+.book_img {
+max-height: 380px;
+transition: all 300ms ease;
+}
+
+.book_img--wrapper {
+margin-bottom: 8px;
+border-radius: 4px;
+overflow-x: hidden;
+}
+
+.book:hover  .book_img {
+transform: scale(1.03);
+}
