@@ -142,6 +142,7 @@ padding: 56px;
 width: 100%;
 max-width: 1200px;
 margin: 0 auto;
+align-items: center;
 
 }
 
@@ -230,6 +231,7 @@ FEATURE
 
 .books {
     display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -252,7 +254,7 @@ display: flex;
 }
 
 .book:hover .book_img {
-  transform: scale(1.03);
+ 
 }
 
 .book_title {
