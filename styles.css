@@ -254,7 +254,7 @@ display: flex;
 }
 
 .book:hover .book_img {
- 
+ transform: scale(1.3);
 }
 
 .book_title {
