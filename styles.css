@@ -320,3 +320,24 @@ footer {
     background-color: #242424 
 }
 
+.footer_logo {
+    display: flex;
+}
+.footer_logo--img {
+    width: 160px;
+    filter: grayscale(1) invert(1);
+}
+
+.footer_link,
+.footer_copyright {
+    color: white;
+}
+
+
+.footer_list {
+   margin: 20px 0 24px 0;
+}
+
+.footer_link {
+padding: 0 8px;
+}
