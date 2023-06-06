@@ -21,7 +21,7 @@ async function renderBooks(filter) {
       (a, b) =>
         (b.salePrice || b.originalPrice) - (a.salePrice || a.originalPrice)
     );
-  } else if (filter === "RATING") {
+  } else if (filter === "RATINGS") {
     books.sort((a, b) => b.rating - a.rating);
   }
 
