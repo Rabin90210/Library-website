@@ -75,7 +75,7 @@ setTimeout(() => {
   renderBooks();
 });
 
-// FAKE DATA
+
 function getBooks() {
   return new Promise((resolve) => {
     setTimeout(() => {
