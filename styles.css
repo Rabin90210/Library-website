@@ -411,7 +411,9 @@ EXPLORE
 
 */
 
-
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+  }
 
 /*
 
@@ -546,12 +548,10 @@ select {
     .book {
         width:50%
     }
-
 }
 
 
 /* SMALL PHONES, LARGE SMARTPHONES */
-
 @media (max-width: 550px) {
 
     .btn__menu {
