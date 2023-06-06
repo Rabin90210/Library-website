@@ -92,9 +92,6 @@ ul {
     display: flex;
 }
 
-li{
-    list-style-type: none;
-}
 
 .nav__link {
     margin-left: 16px;
