@@ -210,6 +210,7 @@ header {
     justify-content: space-around;
 }
 
+
 h1 {
     font-size: 60px;
     color: #7342d6;
@@ -357,12 +358,17 @@ FEATURE
 .book {
  width:25%;
  padding: 24px;
+ display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .book__img {
 max-height: 380px;
 transition: all 300ms ease;
 cursor: not-allowed;
+object-fit: contain;
+object-position: left;
 }
 
 .book__img--wrapper {
